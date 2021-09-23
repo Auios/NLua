@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31710.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NLua", "NLua", "{4A43DAAC-F9FF-4EB1-BFBD-FB4655CCE1F7}"
 EndProject
@@ -22,14 +22,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLuaTest", "tests\build\net46\NLuaTest.csproj", "{20AE709C-FB97-48E3-89B0-A34A5C3DA1DB}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "KeraLua.Shared", "..\KeraLua\src\KeraLua.Shared.shproj", "{DD0B8392-1946-48B8-BD67-FA33DEE6CA71}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\KeraLua\src\KeraLua.Core.projitems*{20ae709c-fb97-48e3-89b0-a34a5c3da1db}*SharedItemsImports = 4
 		tests\src\NLuaTest.Shared.projitems*{20ae709c-fb97-48e3-89b0-a34a5c3da1db}*SharedItemsImports = 4
 		tests\src\NLuaTest.Shared.Scripts.projitems*{20ae709c-fb97-48e3-89b0-a34a5c3da1db}*SharedItemsImports = 4
 		tests\src\NLuaTest.Shared.projitems*{7279d001-6f21-4ff3-a0ee-3a1d12004ba3}*SharedItemsImports = 13
 		tests\src\NLuaTest.Shared.Scripts.projitems*{9e2a0bc0-5c10-4a85-9ca1-2beb751128b7}*SharedItemsImports = 13
 		src\NLua.Shared.projitems*{bd205ad6-760e-48f3-bab2-21447396bd17}*SharedItemsImports = 13
+		..\KeraLua\src\KeraLua.Core.projitems*{d5b6902e-37cd-44db-8ac5-bfaeee663633}*SharedItemsImports = 4
 		src\NLua.Shared.projitems*{d5b6902e-37cd-44db-8ac5-bfaeee663633}*SharedItemsImports = 4
+		..\KeraLua\src\KeraLua.Core.projitems*{dd0b8392-1946-48b8-bd67-fa33dee6ca71}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
